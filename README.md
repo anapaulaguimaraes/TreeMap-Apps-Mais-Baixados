@@ -1,4 +1,4 @@
-### TreeMap dos 10 Apps Mais Baixados do Brasil
+## TreeMap dos 10 Apps Mais Baixados do Brasil
 
 Essa aplicação exibe um TreeMap dos 10 aplicativos mais baixados do Brasil no mês de junho de 2024.<br> 
 O TreeMap é uma visualização gráfica que representa dados hierárquicos usando retângulos coloridos.<br> 

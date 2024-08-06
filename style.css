@@ -1,0 +1,118 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, 50px);
+    grid-template-rows: 200px 150px 100px 100px 100px 100px 100px 100px;
+}
+
+.center {
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+body {
+    font-family: monospace;
+    color: #333;
+    padding-bottom: 60px;
+    margin: 0px;
+}
+
+body>div {
+    padding: 40px 0;
+}
+
+.item {
+    margin: 0.5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.item span {
+    display: block;
+    margin-top: 5px;  
+}
+
+.item-1 {
+    grid-column: span 11;
+    background: #115a23;
+    font-size: 1.2em;
+}
+
+.item-2 {
+    grid-column: span 8;
+    background: #196d2e;
+    font-size: 1.2em;
+}
+
+.item-3 {
+    grid-column: span 8;
+    background: #1d7c35;
+    font-size: 1.2em;
+}
+
+.item-4 {
+    grid-column: span 6;
+    background: #279643;
+    font-size: 1.2em;
+}
+
+.item-5 {
+    grid-column: span 5;
+    background: #37b657;
+    font-size: 1.2em;
+}
+
+.item-6 {
+    grid-column: span 5;
+    background: #e93131;
+    font-size: 1.0em;
+}
+
+.item-7 {
+    grid-column: span 4;
+    background: #ee3939ee;
+    font-size: 1.0em;
+}
+
+.item-8 {
+    grid-column: span 3;
+    background: #fd4646;
+    font-size: 0.9em;
+}
+
+.item-9 {
+    grid-column: span 2;
+    background: #f55959be;
+    font-size: 0.8em;
+}
+
+.item-10 {
+    grid-column: span 2;
+    background: #f55959be;
+    font-size: 0.9em;
+}
+
+/* Responsivo*/
+@media (max-width: 920px) {
+    .grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
+
+@media (max-width: 320px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

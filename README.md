@@ -35,6 +35,8 @@ Abra um navegador e acesse o arquivo index.html diretamente no navegador ou atra
 
 #### Veja como ficou o projeto:
 
+https://anapaulaguimaraes.github.io/TreeMap-Apps-Mais-Baixados/
+
 
 ### TreeMap dos 10 Apps Mais Baixados do Brasil
 
